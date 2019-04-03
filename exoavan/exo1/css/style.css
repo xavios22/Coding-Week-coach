@@ -1,0 +1,36 @@
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+  }
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+
+  }  
+.navbar a:hover {
+    background-color: red;
+    color: white;
+  }
+  
+
+  /* Css page1 */
+  #container {
+    display: table;
+    border-spacing: 5px;
+  }
+  #ontainert {
+    display: table-row;
+  }
+  #principal, #secondaire, #lateral {
+    display: table-cell;
+  }
+  #principal {
+    width: 60%;
+  }
+  #secundaire, #lateral {
+    width: 20%;
+  }
